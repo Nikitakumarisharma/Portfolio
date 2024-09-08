@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sidebar{
+    min-height: 100vh;
+    position: fixed;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.app_container{
+    display: flex;
+}
+main {
+    margin-left: 180px; 
+    /* used for the shifting main content 180 bcz navbar taking 180px from left */
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  html {
+    scroll-behavior: smooth;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  
+.eduction{
+    text-align: center;
+    color:rgb(79, 209, 197);
+    margin-bottom: 50px;
+
 }
+.education-item:hover {
+background-color: rgb(79, 209, 197);
+}
+.skill-item{
+    box-shadow: 1px 1px 10px white;
+    transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+
+}
+.skill-item:hover{
+    transform: scale(1.15); /* Scales the element to 105% of its original size */
+}
+.project-item{
+    box-shadow: 1px 1px 10px white;
+    transition: transform 0.3s ease;
+
+}
+.project-item:hover{
+    transform: scale(1.05);
+}
+.projects-section{
+    min-height: 100vh;
+
+}
+.contact_me{
+    min-height: 100vh;
+
+}
+
+  
