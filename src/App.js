@@ -13,7 +13,9 @@ const App = () => {
 
   return (
   <div className="app_container">
+    <div >
     <SideBar selectTab={selectedTab} setselectTab={setSelectedTab}></SideBar>
+    </div>
     <main>
     <div>
       <Home></Home>

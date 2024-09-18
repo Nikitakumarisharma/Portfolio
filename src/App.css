@@ -10,9 +10,10 @@
     display: flex;
 }
 main {
-    margin-left: 180px; 
+    margin-left: 110px; 
     /* used for the shifting main content 180 bcz navbar taking 180px from left */
   }
+
   html {
     scroll-behavior: smooth;
   }
@@ -26,11 +27,16 @@ main {
 .education-item:hover {
 background-color: rgb(79, 209, 197);
 }
+.experience-item:hover{
+    background-color: rgb(79, 209, 197);
+
+}
 .skill-item{
     box-shadow: 1px 1px 10px white;
     transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
 
 }
+
 .skill-item:hover{
     transform: scale(1.15); /* Scales the element to 105% of its original size */
 }
@@ -50,5 +56,65 @@ background-color: rgb(79, 209, 197);
     min-height: 100vh;
 
 }
+/* scroll down animation css */
 
+/* Initially hide the elements and position them slightly down */
+.education-item {
+    opacity: 0;
+    transform: translateY(100px); /* Move content down by 100px */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  /* This class will be added when the element is in the viewport */
+  .education-item-visible {
+    opacity: 1;
+    transform: translateY(0); /* Bring content back to original position */
+  }
+  
+  /* Initially hide the elements and position them slightly down */
+.experience-item {
+    opacity: 0;
+    transform: translateY(100px); /* Move content down by 100px */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  /* This class will be added when the element is in the viewport */
+  .experience-item-visible {
+    opacity: 1;
+    transform: translateY(0); /* Bring content back to original position */
+  }
+
+/* Initially hide the project items and move them left */
+
+  
+  
+  /* Base styles for project items */
+.project-item {
+    opacity: 0;
+    transform: translateY(20px); /* Move content down initially */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  /* When the item becomes visible */
+  .project-item-visible {
+    opacity: 1;
+    transform: translateY(0); /* Move content back to original position */
+  }
+
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  .typing-effect {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #00bfae; /* Customize this color as needed */
+    animation: typing 2s steps(40, end) 1s 1 normal both;
+    font-family: monospace; /* Optional: Gives a typewriter feel */
+  }
+  
+  
+  
   
