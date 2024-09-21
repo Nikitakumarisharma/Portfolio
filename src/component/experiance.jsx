@@ -33,9 +33,16 @@ const Experience = () => {
       
       <section id="experience" className="experience-section pb-4">
       <h2 className="experience text-5xl text-center py-4 mt-8">Experience</h2>
+      <div className="experience-item mb-4 bg-teal-500 text-white rounded-2xl lg:mx-4 mx-2 p-4 pb-2">
+        <h4 className="text-2xl">Software Development Intern<span className="text-teal-700 text-[15px] ml-2">(June 2024 - August 2024)</span></h4>
+        <p className="text-teal-700">Ekta Solution</p>
+        <ul className="list-disc ml-5">
+          <li>Leading website development with a focus on responsive design.</li>
+        </ul>
+      </div>
 
       <div className="experience-item mb-4 bg-teal-500 text-white rounded-2xl lg:mx-4 mx-2 p-4 pb-2">
-        <h4 className="text-2xl">Frontend Developer Intern <span className="text-teal-700 text-[15px] ml-2">(May 2024 – July 2024)</span></h4>
+        <h4 className="text-2xl">Frontend Developer Intern <span className="text-teal-700 text-[15px] ml-2">(june 2023 – July 2023)</span></h4>
         <p className="text-teal-700">Code Alpha</p>
         <ul className="list-disc ml-5">
           <li>Developed web applications with an 80% user satisfaction rate.</li>
@@ -43,13 +50,6 @@ const Experience = () => {
         </ul>
       </div>
 
-      <div className="experience-item mb-4 bg-teal-500 text-white rounded-2xl lg:mx-4 mx-2 p-4 pb-2">
-        <h4 className="text-2xl">Software Development Intern<span className="text-teal-700 text-[15px] ml-2">(July 2023 - August 2023)</span></h4>
-        <p className="text-teal-700">Ekta Solution</p>
-        <ul className="list-disc ml-5">
-          <li>Leading website development with a focus on responsive design.</li>
-        </ul>
-      </div>
 
       <div className="experience-item mb-4 bg-teal-500 text-white rounded-2xl lg:mx-4 mx-2 p-4 pb-2">
         <h4 className="text-xl">Open-Source Contributor <span className="text-teal-700 text-[15px] ml-2">(June 2024 - August 2024)</span></h4>

@@ -33,7 +33,7 @@ const Projects = () => {
         
         <div className="project-item bg-black text-white rounded-2xl m-1 p-4 pb-2">
           <img 
-            src="https://via.placeholder.com/400x250" 
+            src="https://th.bing.com/th/id/OIP.qNwnxdVwDlm4tIiwaC6uzAHaEc?w=258&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7/400x250" 
             alt="Project One"
             className="w-full h-40 object-cover rounded"
           />
@@ -55,7 +55,7 @@ const Projects = () => {
 
         <div className="project-item bg-black text-white rounded-2xl m-1 p-4 pb-2">
           <img 
-            src="https://via.placeholder.com/400x250" 
+            src="https://th.bing.com/th/id/OIP.6Ie9ureggQGy_2hRCmh-DAHaG-?w=196&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7/400x250" 
             alt="Project Two"
             className="w-full h-40 object-cover rounded"
           />
@@ -77,7 +77,7 @@ const Projects = () => {
 
         <div className="project-item bg-black text-white rounded-2xl m-1 p-4 pb-2">
           <img 
-            src="https://via.placeholder.com/400x250" 
+            src="https://th.bing.com/th/id/OIP.jwvellTnQz3QudY7qrqODAHaD4?w=326&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7/400x250" 
             alt="Project Three"
             className="w-full h-40 object-cover rounded"
           />
