@@ -2,17 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-.sidebar{
+/* .sidebar{
     min-height: 100vh;
     position: fixed;
-}
-.app_container{
+} */
+/* .app_container{
     display: flex;
-}
-main {
-    margin-left: 110px; 
-    /* used for the shifting main content 180 bcz navbar taking 180px from left */
-  }
+} */
+
+
 
   html {
     scroll-behavior: smooth;

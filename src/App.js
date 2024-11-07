@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-import SideBar from './component/sidebar'
+import NavBar from './component/navbar'
 import Home from './component/Home'
 import Eduction from './component/Eduction';
 import Skill from './component/skill';
@@ -13,19 +13,13 @@ const App = () => {
 
   return (
   <div className="app_container">
-    <div >
-    <SideBar selectTab={selectedTab} setselectTab={setSelectedTab}></SideBar>
-    </div>
-    <main>
-    <div>
+      <NavBar selectTab={selectedTab} setselectTab={setSelectedTab}></NavBar>
       <Home></Home>
       <Eduction></Eduction>
       <Skill></Skill>
       <Experience></Experience>
       <Projects></Projects>
       <ContactMe></ContactMe>
-    </div>
-    </main>
     </div>
   )
 }
