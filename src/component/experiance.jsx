@@ -40,9 +40,19 @@ const Experience = () => {
           <li>Leading website development with a focus on responsive design.</li>
         </ul>
       </div>
-
+    
       <div className="experience-item mb-4 bg-teal-500 text-white rounded-2xl lg:mx-4 mx-2 p-4 pb-2">
-        <h4 className="text-2xl">Frontend Developer Intern <span className="text-teal-700 text-[15px] ml-2">(june 2023 – July 2023)</span></h4>
+        <h4 className="text-2xl">Frontend Developer Intern <span className="text-teal-700 text-[15px] ml-2">(June 2024 – July 2024)</span></h4>
+        <p className="text-teal-700">IBM SkillBuild</p>
+        <ul className="list-disc ml-5">
+          <li>Developed a comprehensive website addressing the UN’s Sustainable Development Goals.</li>
+          <li> integrating API-driven data 
+          and solving complex UI challenges with a focus on scalability and reusability. </li>
+        </ul>
+      </div>
+    
+      <div className="experience-item mb-4 bg-teal-500 text-white rounded-2xl lg:mx-4 mx-2 p-4 pb-2">
+        <h4 className="text-2xl">Web Developer Intern <span className="text-teal-700 text-[15px] ml-2">(june 2023 – July 2023)</span></h4>
         <p className="text-teal-700">Code Alpha</p>
         <ul className="list-disc ml-5">
           <li>Developed web applications with an 80% user satisfaction rate.</li>
@@ -51,13 +61,7 @@ const Experience = () => {
       </div>
 
 
-      <div className="experience-item mb-4 bg-teal-500 text-white rounded-2xl lg:mx-4 mx-2 p-4 pb-2">
-        <h4 className="text-xl">Open-Source Contributor <span className="text-teal-700 text-[15px] ml-2">(June 2024 - August 2024)</span></h4>
-        <p className="text-teal-700">Girl Script Summer of Code (GSSOC)</p>
-        <ul className="list-disc ml-5">
-          <li>Contributed to open-source software projects, including multiple GitHub repositories.</li>
-        </ul>
-      </div>
+      
     </section>
 
       <div className="image-section  lg:p-24 lg:mt-24">
