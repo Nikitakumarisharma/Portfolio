@@ -20,7 +20,6 @@ const Home = () => {
           <a href="mailto:niku2003kumari@gmail.com" className="btn btn-primary py-2 px-4 rounded-md text-white bg-blue-500 hover:bg-blue-900 transition">Email Me</a>
           <a href="https://www.linkedin.com/in/nikita-kumari-312495234/" className="btn btn-secondary py-2 px-4 rounded-md text-white bg-gray-500 hover:bg-gray-900 transition">LinkedIn</a>
           <a href="https://github.com/Nikitakumarisharma/" className="btn btn-outline-light py-2 px-4 rounded-md border border-gray-300 text-gray-300 hover:bg-gray-700 transition">GitHub</a>
-          <a href="/path/to/resume.pdf" download className="btn btn-success py-2 px-4 rounded-md text-white bg-green-400 hover:bg-green-700 transition">Download Resume</a>
         </div>
       </div>
     </section>

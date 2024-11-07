@@ -1,12 +1,11 @@
-
 const SideBar = ({selectTab, setselectTab }) => {
   return( 
   <div className="d-flex flex-column flex-shrink-0 p-3 text-bg-dark sidebar"   style={{ width: '110px' }}>
     <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
       <div>
       <a href="#" className="d-flex align-items-center text-white text-decoration-none " aria-expanded="false">
-        <img src="https://github.com/mdo.png" alt="" width="32" height="32" className="rounded-circle me-2"/>
-        <strong>Nikita Kumari</strong>
+      <img src={require('./dp.png')} alt="" width="32" height="32" className="rounded-circle me-2" />
+      <strong>Nikita Kumari</strong>
       </a>
     </div>
     </a>
@@ -78,7 +77,7 @@ const SideBar = ({selectTab, setselectTab }) => {
             }}
           >
           <svg className="bi pe-none me-2" width="16" height="30"><use  xlinkHref="#people-circle"></use></svg>
-          Contact Me
+          Hire Me
         </a>
       </li>
     </ul>
