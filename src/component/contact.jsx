@@ -36,7 +36,7 @@ const ContactMe = () => {
   };
 
   return (
-    <div id="contact" className="bg-black text-white min-h-screen flex items-center justify-center contact_me " >
+    <div id="contact" className="bg-black text-black min-h-screen flex items-center justify-center contact_me " >
        <div><h1 className='bg-black text-white text-2xl font-bold pl-0 ml-0 p-4 m-4'>Hire me or can say hello to me.</h1>
     <form onSubmit={handleSubmit} className="bg-teal-600 p-8 rounded-lg shadow-lg w-full max-w-md">
       <div className="mb-4">

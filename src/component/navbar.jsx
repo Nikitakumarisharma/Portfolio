@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import dp from "../asset/dp.png"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center">
         {/* Logo */}
         <img 
-          src={require('./dp.png')}
+          src= {dp}
           alt="Profile"
           width="52"
           height="52"
@@ -41,10 +42,10 @@ const Navbar = () => {
       <div className={`md:hidden ${isOpen ? 'block' : 'hidden'} mt-4 space-y-4 text-white`}>
         <a href="#home" className="block hover:text-white font-bold">Home</a>
         <a href="#education" className="block hover:text-white font-bold">Education</a>
-        <a href="#contact" className="block hover:text-white font-bold">Contact</a>
         <a href="#skills" className="block hover:text-white font-bold">Skill</a>
         <a href="#experience" className="block hover:text-white font-bold">Experience</a>
         <a href="#projects" className="block hover:text-white font-bold">Project</a>
+        <a href="#contact" className="block hover:text-white font-bold">Contact</a>
       </div>
     </nav>
   );

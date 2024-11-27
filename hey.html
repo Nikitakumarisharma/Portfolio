@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random User API Example</title>
+</head>
+<body>
+  <h1>Random User Information</h1>
+  <div id="user-info">
+    <!-- User information will be displayed here -->
+  </div>
+  <button onclick="fetchRandomUser()">Get Random User</button>
+
+  <script>
+    // Function to fetch random user data from the API
+    async function fetchRandomUser() {
+      try {
+        // Making a GET request to the Random User API
+        const response = await fetch('https://randomuser.me/api/');
+        
+        // Parsing the JSON response
+        const data = await response.json();
+        
+        // Accessing the first user from the response
+        const user = data.results[0];
+        
+        // Displaying the user's name, email, and picture in the HTML
+        document.getElementById('user-info').innerHTML = `
+          <p><strong>Name:</strong> ${user.name.first} ${user.name.last}</p>
+          <p><strong>Email:</strong> ${user.email}</p>
+          <img src="${user.picture.medium}" alt="User Picture">
+        `;
+      } catch (error) {
+        console.error("Error fetching user data:", error);
+      }
+    }
+  </script>
+</body>
+</html>

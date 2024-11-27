@@ -5,8 +5,8 @@ import Home from './component/Home'
 import Eduction from './component/Eduction';
 import Skill from './component/skill';
 import Experience from './component/experiance';
-import Projects from './component/project';
 import ContactMe from './component/contact';
+import ProjectList from './component/project';
 
 const App = () => {
   const [selectedTab,setSelectedTab] = useState("Home");
@@ -18,7 +18,7 @@ const App = () => {
       <Eduction></Eduction>
       <Skill></Skill>
       <Experience></Experience>
-      <Projects></Projects>
+      <ProjectList/>
       <ContactMe></ContactMe>
     </div>
   )

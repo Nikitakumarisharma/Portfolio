@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <section id="home" className="home-section flex flex-col justify-center items-center p-5 text-center bg-black text-white min-h-screen">
       <div className="container mx-auto px-4">
-      <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold typing-effect">
+      <h1 className="lg:text-3xl md:text-xl text-[15px] font-bold typing-effect">
       Hi, I'm <span className="text-teal-400 ">Nikita Kumari</span>
     </h1>
 
